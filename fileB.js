@@ -1,6 +1,6 @@
 // Part 2
-// module.exports.foo = 'hello world';
-// module.exports.bar = 'goodbye world';
+module.exports.foo = 'hello world';
+module.exports.bar = 'goodbye world';
 
 // now execute node fileA.js in the terminal
 /*
@@ -26,14 +26,15 @@ available on the object that's returned by require
 // exportsFromFileB()
 
 // Part 4
+
+
+// This next part will be tricky! Replace the contents of fileB.js 
+// and fileA.js with the following code: fileB.js
+
+// console.log('fileB is being run!')
+
+
 /*
-
-This next part will be tricky! Replace the contents of fileB.js 
-and fileA.js with the following code: fileB.js
-
-console.log('fileB is being run!')
-fileA.js
-
 require('./fileB') 
 require('./fileB') // not a typo - actually require it twice!
 */

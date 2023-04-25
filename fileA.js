@@ -13,8 +13,10 @@ Copy the following code into fileA.js:
 */
 
 
-// const exportsFromFileB = require('./fileB') // note the relative file path
-// console.log(exportsFromFileB);
+const exportsFromFileB = require('./fileB') // note the relative file path
+console.log(exportsFromFileB);
+console.log(exportsFromFileB.foo);
+console.log(exportsFromFileB.bar);
 
 
 /*
@@ -49,6 +51,5 @@ into your fileA.js, and console.log the result. What will you get
 each time? Make a guess, then execute your code to test it out. 
 Check the hint at the end for an explanation.
 */
-const pets = require('./pets');
-console.log(pets.dogs);
-console.log(pets.cats);
+// const pets = require('./pets');
+// console.log(pets);

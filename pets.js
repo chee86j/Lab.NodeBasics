@@ -1,5 +1,5 @@
-const dogs = 'I love dogs!';
-const cats = 'I love cats!';
+// const dogs = 'I love dogs!';
+// const cats = 'I love cats!';
 
 // module.exports.dogs = dogs;
 // module.exports.cats = cats;
@@ -13,10 +13,10 @@ module.exports to be the object that we want to export,
 rather than simply stick key-value pairs on it directly.
 */
 
-module.exports = {
-    dogs: dogs,
-    cats: cats
-}
+// module.exports = {
+//     dogs: dogs,
+//     cats: cats
+// }
 
 // Part 3
 /*
